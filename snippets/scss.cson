@@ -1,0 +1,111 @@
+########################################################
+#            Atom Sass Snippet                        #
+#             ------------                           #
+#####################################################
+
+'.source.scss':
+
+  "variable->Scss":
+    "prefix": "ss-variable"
+    "body": """
+    $test$1: $2;
+    """
+  "@import->Scss":
+    "prefix": "ss-import"
+    "body": """
+    @import "$1";
+    """
+  "@mixin->Scss":
+    "prefix": "ss-mixin"
+    "body": """
+    @mixin test$1() {
+      $2
+    }
+    """
+  "@include  mixin->Scss":
+    "prefix": "ss-include"
+    "body": """
+    @include test$1();
+    """
+  "@include content+mixin->Scss":
+    "prefix": "ss-inc"
+    "body": """
+    @include test(){
+      $1
+    };
+    """
+  "@extend class ->Scss":
+    "prefix": "ss-extend"
+    "body": """
+    @extend .test$1;
+    """
+  "%embrace ->Scss":
+    "prefix": "ss-embrace"
+    "body": """
+    %test$1 {
+      $2
+    }
+    """
+  "@extend embrace ->Scss":
+    "prefix": "ss-ext"
+    "body": """
+    @extend %test;
+    """
+  "@if condition ->Scss":
+    "prefix": "ss-if"
+    "body": """
+    @if ($1) {
+      $2
+    }
+    """
+  "@else-if condition ->Scss":
+    "prefix": "ss-eif"
+    "body": """
+    @else if ($1){
+      $2
+    }
+    """
+  "@else condition ->Scss":
+    "prefix": "ss-else"
+    "body": """
+    @else{
+      $1
+    }
+    """
+  "@else condition ->Scss":
+    "prefix": "ss-else"
+    "body": """
+    @else{
+      $1
+    }
+    """
+  "@for ->Scss":
+    "prefix": "ss-for"
+    "body": """
+    @for $i from 1 through 3 {
+      \.item-\#{$i} {
+        width: 2em * $i;
+      }
+    }
+    """
+  "@each ->Scss":
+    "prefix": "ss-each"
+    "body": """
+    @each $animal in puma, sea-slug, egret, salamander {
+      \.\#{$animal}-icon {
+        $1
+      }
+    }
+    """
+  "@each simple ->Scss":
+    "prefix": "ss-each1"
+    "body": """
+    @each $a$1 in $b {
+      $2
+    }
+    """
+  "@content mixin ->Scss":
+    "prefix": "ss-content"
+    "body": """
+    @content;
+    """

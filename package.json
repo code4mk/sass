@@ -1,0 +1,21 @@
+{
+  "name": "sass",
+  "version": "0.1.0",
+  "description": "CSS Preprocessor Sass Snippet .scss , .sass  >> Snippet >> sass by @code4mk",
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "vue",
+    "Snippet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code4mk/sass"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
