@@ -70,7 +70,7 @@
     "prefix": "ss-for"
     "body": """
     @for $i from 1 through 3
-      .item-#{$i}
+      \.item-\#{$i}
         width: 2em * $i
     """
   "@each ->Scss":
