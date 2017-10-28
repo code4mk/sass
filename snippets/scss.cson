@@ -72,13 +72,6 @@
       $1
     }
     """
-  "@else condition ->Scss":
-    "prefix": "ss-else"
-    "body": """
-    @else{
-      $1
-    }
-    """
   "@for ->Scss":
     "prefix": "ss-for"
     "body": """

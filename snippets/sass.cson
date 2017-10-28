@@ -18,19 +18,19 @@
   "@mixin->Scss":
     "prefix": "ss-mixin"
     "body": """
-    @mixin test$1()
+    =test$1()
       $2
     """
   "@include  mixin->Scss":
     "prefix": "ss-include"
     "body": """
-    @include test$1()
+    +test$1()
     """
   "@include content+mixin->Scss":
     "prefix": "ss-inc"
     "body": """
-    @include test()
-      $1
+    +test$1()
+      $2
     """
   "@extend class ->Scss":
     "prefix": "ss-extend"
@@ -51,20 +51,14 @@
   "@if condition ->Scss":
     "prefix": "ss-if"
     "body": """
-    @if ($1)
+    @if $test$1
       $2
     """
   "@else-if condition ->Scss":
     "prefix": "ss-eif"
     "body": """
-    @else if ($1)
+    @else if $test$1
       $2
-    """
-  "@else condition ->Scss":
-    "prefix": "ss-else"
-    "body": """
-    @else
-      $1
     """
   "@else condition ->Scss":
     "prefix": "ss-else"
@@ -76,7 +70,7 @@
     "prefix": "ss-for"
     "body": """
     @for $i from 1 through 3
-      \.item-\#{$i} {
+      .item-#{$i}
         width: 2em * $i
     """
   "@each ->Scss":
