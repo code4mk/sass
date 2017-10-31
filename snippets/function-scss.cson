@@ -1,0 +1,192 @@
+########################################################
+#            Atom Sass Snippet                        #
+#             ------------                           #
+#####################################################
+
+'.source.scss':
+
+  "rgb()->Scss":
+    "prefix": "ssf-rgb"
+    "body": """
+    rgb(­$red_value, $green_value, $blue_value)
+    """
+  "rgba()->Scss":
+    "prefix": "ssf-rgba"
+    "body": """
+    rgb(­$red_value, $green_value, $blue_value, $alpha_value)
+    """
+  "red()->Scss":
+    "prefix": "ssf-red"
+    "body": """
+    red($color_value)
+    """
+  "green()->Scss":
+    "prefix": "ssf-green"
+    "body": """
+    green($color_value)
+    """
+  "blue()->Scss":
+    "prefix": "ssf-blue"
+    "body": """
+    blue($color_value)
+    """
+  "mix()->Scss":
+    "prefix": "ssf-mix"
+    "body": """
+    mix(­$co­lor1_name, $color2_name, $weig­ht_value)
+    """
+
+
+  "hsl()->Scss":
+    "prefix": "ssf-hsl"
+    "body": """
+    hsl(­$hue_value, $satur­ation_value, $light­ness_value)
+    """
+  "hsla()->Scss":
+    "prefix": "ssf-hsla"
+    "body": """
+    hsla(­$hue_value, $satur­ation_value, $light­ness_value, $alpha_value)
+    """
+  "hue()->Scss":
+    "prefix": "ssf-hue"
+    "body": """
+    hue($color_value)
+    """
+  "satu­rat­ion()->Scss":
+    "prefix": "ssf-satu­rat­ion"
+    "body": """
+    satu­rat­ion($color_value)
+    """
+  "light­ness()->Scss":
+    "prefix": "ssf-light­ness"
+    "body": """
+    light­ness($color_value)
+    """
+  "adju­st-­hue()->Scss":
+    "prefix": "ssf-adju­st-­hue"
+    "body": """
+    adju­st-­hue­($c­olor_value, $degre­es)
+    """
+  "ligh­ten­()->Scss":
+    "prefix": "ssf-ligh­ten"
+    "body": """
+    ligh­ten­($c­olor, $amount)
+    """
+  "darken­()->Scss":
+    "prefix": "ssf-darken"
+    "body": """
+    darken($c­olor, $amount)
+    """
+  "satu­rat­e()->Scss":
+    "prefix": "ssf-satu­rat­e"
+    "body": """
+    satu­rat­e($c­olor, $amount)
+    """
+  "desa­tur­ate()->Scss":
+    "prefix": "ssf-desa­tur­ate"
+    "body": """
+    desa­tur­ate($c­olor, $amount)
+    """
+  "gray­sca­le()->Scss":
+    "prefix": "ssf-gray­sca­le"
+    "body": """
+    gray­sca­le($c­olor)
+    """
+  "comp­lem­ent­()->Scss":
+    "prefix": "ssf-comp­lem­ent­"
+    "body": """
+    comp­lem­ent­($c­olor)
+    """
+  "invert()->Scss":
+    "prefix": "ssf-invert"
+    "body": """
+    invert($c­olor)
+    """
+  "alpha()->Scss":
+    "prefix": "ssf-alpha"
+    "body": """
+    alpha($c­olor)
+    """
+  "opacity()->Scss":
+    "prefix": "ssf-opacity"
+    "body": """
+    opacity($c­olor)
+    """
+
+  "percentage()->Scss":
+    "prefix": "ssf-percentage"
+    "body": """
+    percentage($number)
+    """
+  "round()->Scss":
+    "prefix": "ssf-round"
+    "body": """
+    round($number)
+    """
+  "ceil()->Scss":
+    "prefix": "ssf-ceil"
+    "body": """
+    ceil($number)
+    """
+  "floor()->Scss":
+    "prefix": "ssf-floor"
+    "body": """
+    floor($number)
+    """
+  "abs()->Scss":
+    "prefix": "ssf-abs"
+    "body": """
+    abs($number)
+    """
+  "min()->Scss":
+    "prefix": "ssf-min"
+    "body": """
+    min($number1,$num2........)
+    """
+  "max()->Scss":
+    "prefix": "ssf-max"
+    "body": """
+    max($number1,$num2........)
+    """
+  "random()->Scss":
+    "prefix": "ssf-random"
+    "body": """
+    random($number1,$num2........)
+    """
+
+
+  "map-get()->Scss":
+    "prefix": "ssf-map-get"
+    "body": """
+    map-get($map, $key)
+    """
+  "map-merge()->Scss":
+    "prefix": "ssf-map-merge"
+    "body": """
+    map-merge($map1, $map2)
+    """
+  "map-remove()->Scss":
+    "prefix": "ssf-map-remove"
+    "body": """
+    map-remove($map, $keys...)
+    """
+  "map-keys()->Scss":
+    "prefix": "ssf-map-keys"
+    "body": """
+    map-keys($map)
+    """
+  "map-values()->Scss":
+    "prefix": "ssf-map-values"
+    "body": """
+    map-values($map)
+    """
+  "map-has-key()->Scss":
+    "prefix": "ssf-map-has-key"
+    "body": """
+    map-has-key($map, $key)
+    """
+  "keywords()->Scss":
+    "prefix": "ssf-keywords"
+    "body": """
+    keywords($args)
+    """

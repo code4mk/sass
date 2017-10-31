@@ -102,3 +102,11 @@
     "body": """
     @content;
     """
+
+  "@function ->Scss":
+    "prefix": "ss-function"
+    "body": """
+    @function test($wish){
+      @return $wish$1
+    }
+    """

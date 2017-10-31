@@ -21,14 +21,15 @@ Mian Features:
   |---|---|
   |  .sass |  ss- |
   |  .scss |  ss- |
+  |  function(.scss/.sass) |  ssf- |
 
 Version:
 
-  - Atom-Vuex = 0.2.0
+  - Sass 
 
 
 
-  Another package which helps you   ❤️
+  Another package which helps you   ❤️ @code4mk
 
   ```ssh
   apm install atom-axios
